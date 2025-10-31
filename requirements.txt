@@ -79,7 +79,7 @@ pillow
 platformdirs
 pooch
 propcache
-protobuf
+protobuf==3.20.3
 pyarrow
 pycparser
 pydantic
