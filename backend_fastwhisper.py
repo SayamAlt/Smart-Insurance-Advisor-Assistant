@@ -162,7 +162,6 @@ if st.session_state.recording:
 
         if transcript.strip():
             st.session_state.transcript = transcript
-            st.markdown(f"**🗣️ Transcript:** {transcript}")
         else:
             st.session_state.transcript = None
 

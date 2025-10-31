@@ -1,25 +1,23 @@
 [
   {
-    "question": "Hi, I just bought a new car and I am wondering what kind of insurance I need in Ontario.",
+    "question": "Hi, how long does it actually take for a home insurance claim to be processed?",
     "answer": {
       "advisor_cues": [
-        "Ensure the customer understands the mandatory car insurance coverages in Ontario.",
-        "Discuss the importance of Third-Party Liability Coverage and its role in protecting against legal responsibilities.",
-        "Highlight the benefits of Statutory Accident Benefits Coverage, including medical and rehabilitation expenses.",
-        "Explain Direct Compensation - Property Damage (DCPD) and its conditions for claims.",
-        "Clarify the protection offered by Uninsured Automobile Coverage."
+        "Discuss the factors affecting claim processing time.",
+        "Emphasize the importance of policyholder responsiveness.",
+        "Highlight the variability in processing times based on claim complexity."
       ],
-      "suggested_reply": "In Ontario, having car insurance is mandatory. The required coverages include Third-Party Liability, Statutory Accident Benefits, Direct Compensation - Property Damage, and Uninsured Automobile Coverage. I recommend reviewing these with your insurance broker to ensure you have the appropriate coverage.",
+      "suggested_reply": "The time it takes to process a home insurance claim can vary. Simple claims might be resolved in a few weeks, while more complex ones could take several months. Please contact your insurance provider for detailed information on their processing times and any actions you can take to expedite the process.",
       "follow_up_questions": [
-        "Have you reviewed your current insurance policy to see if it meets the mandatory requirements?",
-        "Are you interested in exploring optional coverages like Collision or Comprehensive Coverage?",
-        "Would you like assistance in finding an insurance broker to discuss your coverage needs?"
+        "Can you provide more details about the nature of your claim?",
+        "Have you already contacted your insurance provider for their specific processing times?",
+        "Is there any documentation you need assistance with to expedite the claim process?"
       ],
       "policy_references": [
-        "Ontario Automobile Policy (OAP 1)",
-        "Insurance Act, R.S.O. 1990, c. I.8",
-        "Financial Services Regulatory Authority of Ontario (FSRA) guidelines",
-        "Ontario's Compulsory Automobile Insurance Act"
+        "Home Insurance Claims Processing Guidelines",
+        "Policyholder Responsibilities in Claim Processing",
+        "Insurance Company Claim Procedures",
+        "Expedited Claim Processing Options"
       ]
     }
   }
