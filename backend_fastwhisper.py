@@ -22,9 +22,14 @@ logging.getLogger("streamlit").setLevel(logging.ERROR)
 
 # Load environment variables
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+if "secrets" in st.secrets:
+    OPENAI_API_KEY = st.secrets["secrets"]["OPENAI_API_KEY"]
+else:
+    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 if not OPENAI_API_KEY:
-    st.error("❌ Missing OPENAI_API_KEY in environment variables.")
+    st.error("Missing OPENAI_API_KEY in environment variables.")
     st.stop()
 
 # Streamlit setup
