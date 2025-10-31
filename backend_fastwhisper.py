@@ -52,6 +52,7 @@ compressor_llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0.0, api_key=O
 compressor = LLMChainExtractor.from_llm(llm=compressor_llm)
 retriever = ContextualCompressionRetriever(base_retriever=base_retriever, base_compressor=compressor)
 
+# Initialize conversation memory
 memory = ConversationBufferMemory(
     memory_key="chat_history",
     return_messages=True,
@@ -165,7 +166,6 @@ if st.session_state.recording:
         else:
             st.session_state.transcript = None
 
-# Automatically trigger Advisor Insights when transcript available
 if st.session_state.transcript:
     with st.spinner("Analyzing customer query and retrieving insights..."):
         response = qa_chain.invoke({"question": st.session_state.transcript})
