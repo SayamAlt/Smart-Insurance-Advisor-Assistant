@@ -37,7 +37,7 @@ pip install -r requirements.txt
 1. Start the Streamlit application:
 
    ```bash
-   streamlit run main/app.py
+   streamlit run backend_fastwhisper.py
    ```
 
 2.	Use the web interface to record customer audio.
